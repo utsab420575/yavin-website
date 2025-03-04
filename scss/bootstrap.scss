@@ -1,1 +1,67 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Font
+$font-family-sans-serif: 'Open Sans', sans-serif; // Default font family
+
+// Colors
+$primary: #4555d2; // Primary color
+$secondary: #cc2973; // Secondary color
+$dark: #191e47; // Dark color
+$light: #f9fafe; // Light color
+$body-color: #494c52; // Body text color
+$headings-color: $dark; // Headings color
+
+// Navbar
+$navbar-nav-link-padding-x: 0.8rem; // Navbar link horizontal padding
+$navbar-padding-y: 1rem; // Navbar vertical padding
+$nav-link-font-weight: 700; // Navbar link font weight
+
+
+
+
+//Navbar button/toogler radius
+$navbar-toggler-border-radius: 5px; // Navbar toggler border radius
+
+// Spacing Edit
+$spacer: 1rem !default; // Base spacing unit
+$spacers: (
+        0: 0, // Spacing map
+        1: $spacer * 0.25,
+        2: $spacer * 0.5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 6,
+        7: $spacer * 8,
+        8: $spacer * 12,
+) !default;
+
+//Heading means(h1-h6)
+$headings-margin-bottom: $spacer * 1 !default; // Heading margin bottom
+$line-height-base: 1.7; // Base line height
+$headings-font-weight: bold; // Heading font weight
+
+// Button Radius Edit
+$button-radius: 50px; // Button border radius
+$button-padding-x: 30px; // Button horizontal padding
+$button-padding-y: 10px; // Button vertical padding
+
+$btn-border-radius: $button-radius; // Button border radius
+$btn-border-radius-sm: $button-radius; // Small button border radius
+$btn-border-radius-lg: $button-radius; // Large button border radius
+
+$button-padding-x: $button-padding-x; // Button horizontal padding
+$button-padding-x-sm: $button-padding-x; // Small button horizontal padding
+$button-padding-x-lg: $button-padding-x; // Large button horizontal padding
+
+$button-padding-y: $button-padding-y; // Button vertical padding
+$button-padding-y-sm: $button-padding-y; // Small button vertical padding
+$button-padding-y-lg: $button-padding-y; // Large button vertical padding
+
+// Inputs/Forms padding edit
+$input-radius: 30px; // Input border radius
+$input-btn-padding-y: 0.7rem; // Input vertical padding
+$input-btn-padding-x: 1rem; // Input horizontal padding
+$input-border-radius: $input-radius; // Input border radius
+$input-border-radius-sm: $input-radius; // Small input border radius
+$input-border-radius-lg: $input-radius; // Large input border radius
+
+@import '../node_modules/bootstrap/scss/bootstrap'; // Import Bootstrap
